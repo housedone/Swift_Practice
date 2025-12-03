@@ -4,7 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Day01_variables_simpleDataTypes_stringInterpolation.xcscheme_^#shared#^_</key>
+		<key>Day01_FirstStepsInSwift.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Day02_ComplexDataTypes.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>2</integer>
@@ -27,12 +32,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>36F1C5C82EDFF109004CBFE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>36F1C5DA2EDFFA4A004CBFE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>36F1C5E92EDFFF85004CBFE0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>36F1C64E2EE003BB004CBFE0</key>
 		<dict>
 			<key>primary</key>
 			<true/>

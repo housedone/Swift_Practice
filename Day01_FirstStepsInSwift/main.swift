@@ -1,6 +1,6 @@
 //
 //  main.swift
-//  Day01_variables_simpleDataTypes_stringInterpolation
+//  Day01_FirstStepsInSwift
 //
 //  Created by 김우성 on 12/3/25.
 //

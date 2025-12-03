@@ -16,7 +16,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
-		36F1C5C72EDFF109004CBFE0 /* CopyFiles */ = {
+		36F1C6422EE0037B004CBFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		36F1C64D2EE003BB004CBFE0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -29,7 +38,8 @@
 
 /* Begin PBXFileReference section */
 		36F1C5802EDFED27004CBFE0 /* Swift_Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Swift_Practice; sourceTree = BUILT_PRODUCTS_DIR; };
-		36F1C5C92EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01_variables_simpleDataTypes_stringInterpolation; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F1C6442EE0037B004CBFE0 /* Day02_ComplexDataTypes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day02_ComplexDataTypes; sourceTree = BUILT_PRODUCTS_DIR; };
+		36F1C64F2EE003BB004CBFE0 /* Day01_FirstStepsInSwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Day01_FirstStepsInSwift; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -39,13 +49,6 @@
 				main.swift,
 			);
 			target = 36F1C57F2EDFED27004CBFE0 /* Swift_Practice */;
-		};
-		36F1C63F2EE0026C004CBFE0 /* Exceptions for "Day01_variables_simpleDataTypes_stringInterpolation" folder in "Day01_variables_simpleDataTypes_stringInterpolation" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				main.swift,
-			);
-			target = 36F1C5C82EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -58,12 +61,14 @@
 			path = Swift_Practice;
 			sourceTree = "<group>";
 		};
-		36F1C63D2EE0026C004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */ = {
+		36F1C6452EE0037B004CBFE0 /* Day02_ComplexDataTypes */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				36F1C63F2EE0026C004CBFE0 /* Exceptions for "Day01_variables_simpleDataTypes_stringInterpolation" folder in "Day01_variables_simpleDataTypes_stringInterpolation" target */,
-			);
-			path = Day01_variables_simpleDataTypes_stringInterpolation;
+			path = Day02_ComplexDataTypes;
+			sourceTree = "<group>";
+		};
+		36F1C6502EE003BB004CBFE0 /* Day01_FirstStepsInSwift */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Day01_FirstStepsInSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,7 +81,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36F1C5C62EDFF109004CBFE0 /* Frameworks */ = {
+		36F1C6412EE0037B004CBFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F1C64C2EE003BB004CBFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				36F1C5BD2EDFEF9B004CBFE0 /* Swift_Practice */,
-				36F1C63D2EE0026C004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */,
+				36F1C6502EE003BB004CBFE0 /* Day01_FirstStepsInSwift */,
+				36F1C6452EE0037B004CBFE0 /* Day02_ComplexDataTypes */,
 				36F1C5812EDFED27004CBFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,7 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				36F1C5802EDFED27004CBFE0 /* Swift_Practice */,
-				36F1C5C92EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */,
+				36F1C6442EE0037B004CBFE0 /* Day02_ComplexDataTypes */,
+				36F1C64F2EE003BB004CBFE0 /* Day01_FirstStepsInSwift */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,23 +140,48 @@
 			productReference = 36F1C5802EDFED27004CBFE0 /* Swift_Practice */;
 			productType = "com.apple.product-type.tool";
 		};
-		36F1C5C82EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */ = {
+		36F1C6432EE0037B004CBFE0 /* Day02_ComplexDataTypes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36F1C5CD2EDFF109004CBFE0 /* Build configuration list for PBXNativeTarget "Day01_variables_simpleDataTypes_stringInterpolation" */;
+			buildConfigurationList = 36F1C6482EE0037B004CBFE0 /* Build configuration list for PBXNativeTarget "Day02_ComplexDataTypes" */;
 			buildPhases = (
-				36F1C5C52EDFF109004CBFE0 /* Sources */,
-				36F1C5C62EDFF109004CBFE0 /* Frameworks */,
-				36F1C5C72EDFF109004CBFE0 /* CopyFiles */,
+				36F1C6402EE0037B004CBFE0 /* Sources */,
+				36F1C6412EE0037B004CBFE0 /* Frameworks */,
+				36F1C6422EE0037B004CBFE0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Day01_variables_simpleDataTypes_stringInterpolation;
+			fileSystemSynchronizedGroups = (
+				36F1C6452EE0037B004CBFE0 /* Day02_ComplexDataTypes */,
+			);
+			name = Day02_ComplexDataTypes;
 			packageProductDependencies = (
 			);
-			productName = Day01_variables_simpleDataTypes_stringInterpolation;
-			productReference = 36F1C5C92EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */;
+			productName = Day02_ComplexDataTypes;
+			productReference = 36F1C6442EE0037B004CBFE0 /* Day02_ComplexDataTypes */;
+			productType = "com.apple.product-type.tool";
+		};
+		36F1C64E2EE003BB004CBFE0 /* Day01_FirstStepsInSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F1C6532EE003BB004CBFE0 /* Build configuration list for PBXNativeTarget "Day01_FirstStepsInSwift" */;
+			buildPhases = (
+				36F1C64B2EE003BB004CBFE0 /* Sources */,
+				36F1C64C2EE003BB004CBFE0 /* Frameworks */,
+				36F1C64D2EE003BB004CBFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				36F1C6502EE003BB004CBFE0 /* Day01_FirstStepsInSwift */,
+			);
+			name = Day01_FirstStepsInSwift;
+			packageProductDependencies = (
+			);
+			productName = Day01_FirstStepsInSwift;
+			productReference = 36F1C64F2EE003BB004CBFE0 /* Day01_FirstStepsInSwift */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -158,7 +197,10 @@
 					36F1C57F2EDFED27004CBFE0 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
-					36F1C5C82EDFF109004CBFE0 = {
+					36F1C6432EE0037B004CBFE0 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					36F1C64E2EE003BB004CBFE0 = {
 						CreatedOnToolsVersion = 26.1.1;
 					};
 				};
@@ -178,7 +220,8 @@
 			projectRoot = "";
 			targets = (
 				36F1C57F2EDFED27004CBFE0 /* Swift_Practice */,
-				36F1C5C82EDFF109004CBFE0 /* Day01_variables_simpleDataTypes_stringInterpolation */,
+				36F1C64E2EE003BB004CBFE0 /* Day01_FirstStepsInSwift */,
+				36F1C6432EE0037B004CBFE0 /* Day02_ComplexDataTypes */,
 			);
 		};
 /* End PBXProject section */
@@ -191,7 +234,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		36F1C5C52EDFF109004CBFE0 /* Sources */ = {
+		36F1C6402EE0037B004CBFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36F1C64B2EE003BB004CBFE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,7 +397,7 @@
 			};
 			name = Release;
 		};
-		36F1C5CE2EDFF109004CBFE0 /* Debug */ = {
+		36F1C6492EE0037B004CBFE0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -360,7 +410,33 @@
 			};
 			name = Debug;
 		};
-		36F1C5CF2EDFF109004CBFE0 /* Release */ = {
+		36F1C64A2EE0037B004CBFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5CDJYNXZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		36F1C6542EE003BB004CBFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YS5CDJYNXZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36F1C6552EE003BB004CBFE0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -394,11 +470,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36F1C5CD2EDFF109004CBFE0 /* Build configuration list for PBXNativeTarget "Day01_variables_simpleDataTypes_stringInterpolation" */ = {
+		36F1C6482EE0037B004CBFE0 /* Build configuration list for PBXNativeTarget "Day02_ComplexDataTypes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				36F1C5CE2EDFF109004CBFE0 /* Debug */,
-				36F1C5CF2EDFF109004CBFE0 /* Release */,
+				36F1C6492EE0037B004CBFE0 /* Debug */,
+				36F1C64A2EE0037B004CBFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F1C6532EE003BB004CBFE0 /* Build configuration list for PBXNativeTarget "Day01_FirstStepsInSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36F1C6542EE003BB004CBFE0 /* Debug */,
+				36F1C6552EE003BB004CBFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
