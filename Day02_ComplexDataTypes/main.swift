@@ -65,3 +65,17 @@ let set = Set(["aardvark", "astronaut", "azalea"])
 
 let pythons = ["Eric", "Graham", "John", "Michael", "Terry", "Terry"]
 // 배열은 중복을 포함할 수 있는 값 모음이 필요하거나, 항목의 순서가 중요한 경우 사용. 가장 일반적임
+
+
+/* Dictionary */
+// 키와 값 쌍의 집합을 만들 때 좋다. 순서가 없이 저장된다.
+// Set과 비슷하다고 생각하면 좋다. 대신 key만 고유하고, 값은 중복될 수 있다.
+
+let heights = [
+    "Taylor Swift": 1.78,
+    "Ed Sheeran": 1.73
+]
+print(heights)
+print(heights["Taylor Swift"]) // 그 키에 해당하는 값이 없을 수도 있기 때문에 옵셔널
+
+
